@@ -1,0 +1,4 @@
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is the part of repository - only files will be tracking. Working directory also has many real files, 
+but staging area is an abstraction that has only tracked files.
