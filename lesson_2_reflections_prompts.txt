@@ -2,3 +2,15 @@ How is the staging area different from the working directory and the repository?
 
 Staging area is the part of repository - only files will be tracking. Working directory also has many real files, 
 but staging area is an abstraction that has only tracked files.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+git diff --staged shows us which file changed but not yet in commit. Also we will see all changes in file
+that we do not commit yet.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+In adding experimental functions, or adding translations without touching the master branch. We may also combine 
+branches.
