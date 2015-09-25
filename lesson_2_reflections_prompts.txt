@@ -18,3 +18,12 @@ branches.
 
 How do the diagrams help you visualize the branch structure?
 We see all brances and whole commit structure.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Branches merging into one. Commits by timeline.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Different changes in file should be resolved manually. But auto merge lets us to see 
+the changes in code and helps us to correct it.
